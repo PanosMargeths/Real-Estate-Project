@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="939.0" style="-fx-background-color: #B2BABD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_3">
+   <children>
+      <AnchorPane prefHeight="568.0" prefWidth="249.0" style="-fx-background-color: #D1D0D0;">
+         <effect>
+            <DropShadow radius="12.1975" width="29.79">
+               <input>
+                  <Glow level="0.0">
+                     <input>
+                        <InnerShadow height="48.36" radius="11.59" width="0.0" />
+                     </input>
+                  </Glow>
+               </input>
+            </DropShadow>
+         </effect>
+         <children>
+            <Button alignment="TOP_CENTER" contentDisplay="TOP" layoutY="397.0" mnemonicParsing="false" onAction="#switchToScene2ShowAll" prefHeight="25.0" prefWidth="249.0" text="Data" />
+            <Button alignment="TOP_CENTER" contentDisplay="TOP" layoutY="166.0" mnemonicParsing="false" onAction="#switchToSceneMenu" prefHeight="25.0" prefWidth="249.0" text="Menu" />
+            <Button alignment="TOP_CENTER" contentDisplay="TOP" layoutX="1.0" layoutY="251.0" mnemonicParsing="false" onAction="#switchToSceneAdd" prefHeight="25.0" prefWidth="249.0" text="ADD" />
+            <Button alignment="TOP_CENTER" contentDisplay="TOP" layoutX="1.0" layoutY="284.0" mnemonicParsing="false" onAction="#switchToScene2Eddit" prefHeight="25.0" prefWidth="249.0" text="EDIT" />
+            <Label alignment="TOP_CENTER" layoutX="65.0" layoutY="104.0" prefHeight="17.0" prefWidth="120.0" text="ADMIN" textAlignment="JUSTIFY" underline="true">
+               <font>
+                  <Font name="Cambria" size="13.0" />
+               </font>
+            </Label>
+            <Button alignment="TOP_CENTER" contentDisplay="TOP" layoutY="318.0" mnemonicParsing="false" onAction="#switchToScene2Delete" prefHeight="25.0" prefWidth="250.0" text="Delete" />
+            <ImageView fitHeight="80.0" fitWidth="99.0" layoutX="82.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images%20used/13.png" />
+               </image>
+               <effect>
+                  <InnerShadow radius="6.335" width="6.34" />
+               </effect>
+            </ImageView>
+            <Label layoutY="132.0" prefHeight="17.0" prefWidth="249.0" text="Main">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutY="210.0" prefHeight="17.0" prefWidth="249.0" text="Employ Managment">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutY="362.0" prefHeight="17.0" prefWidth="249.0" text="Total Employies">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="100.0" layoutY="529.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="143.0" fitWidth="111.0" layoutX="274.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images%20used/13.png" />
+         </image>
+         <effect>
+            <InnerShadow radius="6.335" width="6.34" />
+         </effect>
+      </ImageView>
+      <Label layoutX="398.0" layoutY="49.0" prefHeight="37.0" prefWidth="373.0" text="Delete an existing employ">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <Line endX="546.0" layoutX="375.0" layoutY="125.0" startX="-100.0" />
+      <AnchorPane layoutX="465.0" layoutY="173.0" prefHeight="340.0" prefWidth="267.0" style="-fx-background-color: white;">
+         <effect>
+            <DropShadow height="9.0" radius="4.0" width="9.0" />
+         </effect>
+         <children>
+            <Label layoutX="69.0" layoutY="94.0" prefHeight="22.0" prefWidth="120.0" text="DELETE DATA">
+               <font>
+                  <Font name="Cambria Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="90.0" layoutY="295.0" mnemonicParsing="false" onAction="#Delete_employ" prefHeight="25.0" prefWidth="76.0" text="DELETE" />
+            <Label layoutX="79.0" layoutY="148.0" prefHeight="22.0" prefWidth="99.0" text="Select Employ">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Label>
+            <Line endX="55.0" layoutX="156.0" layoutY="117.0" startX="-100.0" />
+            <ImageView fitHeight="80.0" fitWidth="87.0" layoutX="89.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images%20used/DIcon.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="delete_employ" layoutX="54.0" layoutY="178.0" promptText="Type Employ ID" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
