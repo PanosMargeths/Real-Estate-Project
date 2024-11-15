@@ -1,5 +1,5 @@
 # Real-Estate-Project
-Tihs applications works as a tool for the managers in the company to manage the employees.  using this application the managers can set the specific amounts of salary the customers make and other uses as adding a new employee, removing employees and adjusting the amount of the salaries
+This application serves as a tool for company managers to efficiently manage employee data. Using the application, managers can set specific salary amounts, add new employees, remove existing employees, and adjust salaries as needed.
 
 ## Images of the Web Application 
 For a better quality click on the image.
