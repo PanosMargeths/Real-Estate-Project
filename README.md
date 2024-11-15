@@ -4,53 +4,57 @@ Tihs applications works as a tool for the managers in the company to manage the 
 ## Images of the Web Application 
 For a better quality click on the image.
 
-<!-- HUB -->
+<!-- Menu -->
 
 <details>
-<summary><h3>HUB</h3></summary>
+<summary><h3>Menu</h3></summary>
 <br>
-<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/edea94ef-9c15-483b-8b80-21c2662fe6f6"/>
+<img align="left" height="650px" width="15000px"  src="https://github.com/user-attachments/assets/edea94ef-9c15-483b-8b80-21c2662fe6f6"/>
 </details>
 
 
 
-<!-- Register -->
+<!-- Add Employee -->
 
 <details>
-<summary><h3>Register</h3></summary>
+<summary><h3>Add Employee</h3></summary>
 <br>
-<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/84bd2368-c9fc-4681-83aa-7a6345fa9d74"/>
+<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/afa313d6-4fb4-4a0e-ac73-8c593dca59fa"/>
 </details>
 
-<!-- Login -->
+
+<!-- Edit Emplyoee -->
 
 <details>
-<summary><h3>Login</h3></summary>
+<summary><h3>Edit Emplyoee</h3></summary>
 <br>
-<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/500030ef-4fcf-4203-904b-d96b098360a7"/>
+<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/22c42e0d-4a98-4268-b5e0-eabd762bb9fd"/>
 </details>
 
-<!-- Tickets -->
+
+<!-- Employee Data -->
 
 <details>
-<summary><h3>Tickets</h3></summary>
+<summary><h3>Employee Data</h3></summary>
 <br>
-<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/97e355fd-36c1-4960-926a-bafab047d349"/>
-<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/1dda9c48-f018-43e4-ba25-89f1a02ab20c"/>
+<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/eaecb08d-3b14-44d2-94e4-f9cf94233e9d"/>
 </details>
 
-<!-- Reservations -->
+
+<!-- Delete Employee -->
 
 <details>
-<summary><h3>(Admin Acc)Reservations</h3></summary>
+<summary><h3>(Admin Acc)Delete Employee</h3></summary>
 <br>
-<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/afea6568-cafa-4b10-aaa3-725b8c6aaadf"/>
+<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/3529be36-42d5-4d09-b6ce-653f714dc0a5"/>
 </details>
 
-<!-- Dates -->
+
+<!-- Logout -->
 
 <details>
-<summary><h3>(Admin Acc)Dates</h3></summary>
+<summary><h3>(Admin Acc)Logout</h3></summary>
 <br>
-<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/ce791a78-727a-4f5a-b06b-d79b8b18a36d"/>
+<img align="left" height="650px" width="1400px"  src="https://github.com/user-attachments/assets/1c54440b-9b1b-42e7-8519-722a8ffc65ad"/>
 </details>
+
